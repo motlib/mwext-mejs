@@ -57,6 +57,9 @@ class MejsHooks {
         /* discard all options which are not in def_opts */
         //$opts = array_intersect_keys($def_opts, $attribs);
         $opts = array_merge($def_opts, $attribs);
+
+        /* Parse data to support videos like [[Media:File.mp4]] */
+        $data = $parser->recursiveTagParse( $data, $frame );
         $opts['src'] = $data;
         
         $html = '<video ' . MejsHooks::getHtmlOpts($opts) . '></video>';
