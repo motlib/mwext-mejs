@@ -7,12 +7,12 @@ License
 -------
 
 This software is distributed under the terms of the MIT license. See
-``LICENSE`` file for details.
+the ``LICENSE.rst`` file for details.
 
-This software includes parts (the build folder) of the MediaElements
-media player by John Dyer. For details please refer to the project
-website http://mediaelementjs.com/ and the source code on Github at
-https://github.com/johndyer/mediaelement.
+This software includes parts (the ``build`` folder) of the
+MediaElements media player by John Dyer. For details please refer to
+the project website http://mediaelementjs.com/ and the source code on
+Github at https://github.com/johndyer/mediaelement.
 
 
 Installation
