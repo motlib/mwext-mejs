@@ -23,12 +23,12 @@ Install the extension as usual for mediawiki:
 - Copy this project to a subfolder named ``mejs`` in the extension
   folder of your mediawiki setup.
   
-- Add a line to your ``LocalSettings.php``, e.g. at the eng::
+- Add a line to your ``LocalSettings.php``, e.g. at the end::
 
-    'wfLoadExtension('mejs');
+    wfLoadExtension('mejs');
     
-- Go to the `Special:Version` page of your Mediawiki to verify the
-  mejs extension is loaded.
+- Go to the `Special:Version` page of your Mediawiki to verify that
+  the mejs extension is loaded.
 
 Usage
 -----
