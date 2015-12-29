@@ -1,0 +1,8 @@
+{
+    "@metadata": {
+        "authors": [
+            "Andreas Schroeder"
+        ]
+    },
+    "mejs-desc": "Use the MediaElement.js media player to wrap video tags."
+}

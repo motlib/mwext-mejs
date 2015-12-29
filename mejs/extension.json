@@ -1,0 +1,38 @@
+{
+    "name": "mejs",
+    "version": "0.0.0",
+    "author": [
+	"Andreas Schroeder"
+    ],
+    "url": "n/a",
+    "descriptionmsg": "mejs-desc",
+    "type": "parserfunction",
+    "MessagesDirs": {
+	"mejs": [
+	    "i18n"
+	]
+    },
+    "ResourceModules": {
+	"ext.mejs": {
+	    "scripts": [
+		"player/mediaelement-and-player.min.js",
+		"player/loader.js"
+	    ],
+            "styles": [
+		"player/mediaelementplayer.min.css"
+	    ]
+	}
+    },
+    "ResourceFileModulePaths": {
+	"localBasePath": "",
+	"remoteExtPath": "mejs"
+    },
+    "Hooks": {
+	"ParserFirstCallInit": [
+	    "MejsHooks::onParserFirstCallInit"
+	]
+    },
+    "AutoloadClasses": {
+	"MejsHooks": "mejs.hooks.php"
+    }
+}
